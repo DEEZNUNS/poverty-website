@@ -1,0 +1,99 @@
+body{
+    font-family: arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color:#a4e5ff ;
+}
+.container {
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas:
+     "navbar navbar navbar navbar"
+    "heading heading heading heading"
+    "text1 text1 text1 text1"
+    "img1 img2 img3 img4" 
+    "img5 img6 img7 img8"
+    "text2 text2 text2 text2"
+    "footer footer footer footer"
+}
+ 
+.heading{
+ 
+    grid-area: heading;
+    background-color: white;
+    font-size: 50px;
+    text-align: center;
+}
+ 
+.navbar{
+ 
+    grid-area: navbar;
+    background-color: white;
+    background: #fff;
+    padding:1em 0;
+    text-align: center;}
+ 
+.navbar ul {
+        list-style: none;
+        padding: 0;
+    }
+ 
+.navbar ul li {
+    display: inline-block;
+    padding: 0;
+}
+ 
+.navbar ul li a {
+        color:#0a0a0a;
+        text-decoration: none;
+    }
+ 
+.image1{
+ 
+    grid-area: image1;
+}
+ 
+.text1{
+ 
+    grid-area: text1;
+}
+ 
+.image2{
+ 
+    grid-area: image2;
+}
+ 
+.text2{
+ 
+    grid-area: text2;
+}
+ 
+.image3{
+ 
+    grid-area: image3;
+}
+ 
+ 
+.text3{
+ 
+    grid-area: text3;
+}
+ 
+.image4{
+ 
+    grid-area: image4;
+}
+ 
+.text4{
+ 
+    grid-area: text4;
+}
+ 
+.footer{
+ 
+    grid-area: footer;
+    background-color: wheat;
+}
